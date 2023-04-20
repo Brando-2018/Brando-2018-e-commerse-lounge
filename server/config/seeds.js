@@ -9,9 +9,9 @@ db.once('open', async () => {
     { name: 'Humidors' },
     { name: 'Hookahs' },
     { name: 'Lighters' },
-    { name: 'Cutters' }
-    { name: 'Cases' }
-    { name: 'Ashtrays' }
+    { name: 'Cutters' },
+    { name: 'Cases' },
+    { name: 'Ashtrays' },
   ]);
 
   console.log('categories seeded');
