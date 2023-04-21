@@ -20,12 +20,12 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Ashton Classic Magnum',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+        'The finest cigar for your beginner smokers. These give you nutty flavors of almonds, cashews, walnuts and chestnuts of your choice!',
+      image: 'ashton-classic-magnum.jpg',
       category: categories[0]._id,
-      price: 2.99,
+      price: 5.99,
       quantity: 500
     },
     {
