@@ -182,21 +182,39 @@ db.once('open', async () => {
       quantity: 30
     },
     {
-      name: 'Tales at Bedtime',
-      category: categories[3]._id,
+      name: 'MYA Ayla Brass Hookah',
+      category: categories[2]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'bedtime-book.jpg',
-      price: 9.99,
-      quantity: 100
+        'This beautiful Bohemian MYA Ayla hookah comes in 7 different unique colors and is paired with an exquisite gold colored brass stem. It stands 24 inches tall with stunning arabesque designs on both the stem and glass base.',
+      image: 'myaaylabrass.jpeg',
+      price: 120.00,
+      quantity: 10
+    },
+    {
+      name: 'MYA Medoro Hookah',
+      category: categories[2]._id,
+      description:
+        'The MYA Medoro 131MX Hookah is an 18" Tall Hookah made from Classic Clear glass and Stainless Steel Stem. The Medoro Hookah comes paired with the 131MX stem, a new MX-Function Style stem featuring a rotating-ring pressure release valve. Adjusting the Rotating ring will allow for air flow release through the stem up the bowl or through the side.',
+      image: 'myamedoro.jpeg',
+      price: 90.00,
+      quantity: 20
+    },
+    {
+      name: 'MYA Helix Hookah',
+      category: categories[2]._id,
+      description:
+        'Uniquely designed. Made with Bohemian glass. Height is 14". One hose hookah.',
+      image: 'myahelix.jpeg',
+      price: 90.00,
+      quantity: 20
     },
     {
       name: 'Spinning Top',
       category: categories[4]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
       image: 'spinning-top.jpg',
-      price: 1.99,
-      quantity: 1000
+      price: 120.00,
+      quantity: 10
     },
     {
       name: 'Set of Plastic Horses',
