@@ -20,7 +20,7 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Arturo Fuente Rothschild',
+      name: 'Arturo Fuente Rothschild Maduro',
       description:
         'Arturo Fuente Rothschild is dark and hefty - just like its flavor. This premium stick is loaded with top-quality notes of rich and spicy cedar, cream, and earth. This cigar certainly looks like a powerhouse so I was shocked at how smooth and mellow the draw was--but I couldn’t be more satisfied!',
       image: 'afrothchild.png',
