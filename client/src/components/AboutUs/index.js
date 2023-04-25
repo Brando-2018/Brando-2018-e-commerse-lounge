@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutUs = () => {
+function AboutUs () {
   // Define the data for the footer
   const description = "This is your very own all-inclusive website for your avid cigars needs and coinsurer essentials. With this website you’ll be able to buy cigars, humidors, hookahs, lighters, cutters, cases, ashtrays, and shirts!"; 
 
@@ -46,6 +46,9 @@ const AboutUs = () => {
 //     title={title}
 //     columns={columns}
 //   />;
+    return(
+        <h1>{AboutUs()}</h1>
+    );
 }
 
 export default AboutUs;
