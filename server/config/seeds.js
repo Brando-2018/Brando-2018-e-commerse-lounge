@@ -209,40 +209,136 @@ db.once('open', async () => {
       quantity: 20
     },
     {
-      name: 'Spinning Top',
-      category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
+      name: 'Xikar HP3 Triple Flame Black',
+      category: categories[3]._id,
+      description: "Xikar cigar accessories are made to the highest standards to assure reliability and long life. Whether it's the powerful Xikar teardrop shape cigar cutters (honed to the hardest and sharpest stainless steel edges possible), or Xikar cigar lighters, designed for comfort and long life, they all come with Xikar's guaranteed for life promise.",
+      image: 'xikartripleblack.jpeg',
       price: 120.00,
       quantity: 10
     },
     {
-      name: 'Set of Plastic Horses',
+      name: 'Palio Cigar Lighters Vesuvio Clear Triple Flame',
+      category: categories[3]._id,
+      description: "This top-quality lighter boasts a huge fuel tank, made with crystal-clear and durable plastic to not only allow me to see exactly how much full it is, but also keeps prices affordable. The massive size of the fuel tank also allows for several uses without needing to be refueled. The flame is also precise and powerful thanks to the triangular arrangement of the jet torches.",
+      image: 'paliovesuvioclear.jpeg',
+      price: 120.00,
+      quantity: 10
+    },
+    {
+      name: 'Alec Bradley Burner',
+      category: categories[3]._id,
+      description: "Shaped like a tea kettle, the Alec Bradley Burner Cigar Lighter is one unique, cool-looking lighting machine! Easy to use, you just push the over-sized piezo style ignition, adjust the flame height, and perfectly light every premium cigar in your stash. This ultimate table top cigar lighter from one of the most famous cigar brands in the world, is the perfect lighter for all your smoking needs.",
+      image: 'alecburner.jpeg',
+      price: 120.00,
+      quantity: 10
+    },
+    {
+      name: 'ST DuPont Black Maxi Punched Lighter',
+      category: categories[3]._id,
+      description: "The S.T. Dupont MaxiJet Black Matte Punched Lighter is sleek, sexy, and highly functional.",
+      image: 'stdupontmaxi.jpeg',
+      price: 225.00,
+      quantity: 10
+    },
+    {
+      name: 'Colibri Quasar Gunmetal',
       category: categories[4]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
+        'The popular Colibri Quasar Table Cutter in this gunmetal finish gives you two options for cutting your handmade premium cigars. The V-cut is my favorite, for me I get a clean cut that provides less tobacco you capture all the flavors of your cigar, the straight cut I would use for the smaller size cigar.',
+      image: 'colibriquasargun.jpeg',
       price: 2.99,
       quantity: 1000
     },
     {
-      name: 'Teddy Bear',
+      name: 'Xikar X12 Custom Cabanas',
       category: categories[4]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
+        'The Xikar XI2 Custom Cabanas w/ Logo Cigar Cutter looks simply stunning with its signature tear drop shape emblazoned with the old-world Cuban artwork of the famous Cabanas cigar brand. The blades in this premium cigar cutter are made of high quality 440 stainless steel with an HRC of 57.What does that mean for you? It means that these are the hardest and sharpest blades that money can buy! The body retains the classic XIKAR shape and features a lightweight design that always feels ergonomic in the hand. Capable of easily and precisely cutting up to a 54-ring gauge, this unique cutter can accommodate most of the popular cigar sizes on the market today.',
+      image: 'xikarxonetwo.jpeg',
+      price: 2.99,
+      quantity: 1000
+    },
+    {
+      name: 'Xikar Redwood Cutter',
+      category: categories[4]._id,
+      description:
+        'The Xikar Redwood is a stunning designed cigar cutter, the bold redwood accents the sterling silver aluminum body. The double comes equipped with a durable aluminum body, planetary geared cutting system with five internal gears and a spring-loaded double guillotine stainless-steel blade release button. This unique design will spark-up a conversation every time you use it. The comfortable feel when cutting your vintage cigar is amazingly smooth with top-notch performance.',
+      image: 'xikarredwood.jpeg',
+      price: 2.99,
+      quantity: 1000
+    },
+    {
+      name: 'Prestige Desktop',
+      category: categories[4]._id,
+      description:
+        'The premium Prestige Desktop Cutter features a walnut wood body and push handle, combined with chrome plated hardware and a razor-sharp cutting mechanism. I simply set my stick on to the cigar bed, slide it into place underneath the blade, and press down on the handle for a clean, precise cut that never tears the wrapper. The included catch tray prevents any mess. The tabletop cigar cutter has a push button locking mechanism that keeps the blade safely in place when not in use.',
+      image: 'prestigedesk.jpeg',
+      price: 2.99,
+      quantity: 1000
+    },
+    {
+      name: 'Prestige Drexel 3 Blue Case',
+      category: categories[5]._id,
+      description:
+        "Drexel's Blue Cigar Case looks stunning in its blue stitched pattern design. The cedar lining is a wonderful feature along with the extra-large sleeves that comfortably holds my 60-ring cigars.",
+      image: 'prestigedrexel.jpg',
       price: 7.99,
       quantity: 100
     },
     {
-      name: 'Alphabet Blocks',
-      category: categories[4]._id,
+      name: 'Prestige 6 Cigar Humidor Case',
+      category: categories[5]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
+        "The portable and versatile Prestige Black Leather 6-Cigar Humidor Case is definitely a one-of-a-kind accessory that you don't see every day! Sliding the case open reveals two removable cigar beds that can protect up to six 8 x 60-ring gauge premium cigars.",
+      image: 'prestigehumidorcase.jpeg',
+      price: 7.99,
+      quantity: 100
+    },
+    {
+      name: 'Visol Landon Carbon Fiber Mini Case',
+      category: categories[5]._id,
+      description:
+        "The premium quality Visol Landon Carbon Fiber Mini Cigar Case let me throw away my ugly cigarillo boxes and carry my little stogies in style. The carbon fiber construction and crush-proof design protects my sticks from just about any disaster, and the rugged yet elegant design and looks appropriate in any setting.",
+      image: 'visollandoncarbon.jpg',
+      price: 7.99,
+      quantity: 100
+    },
+    {
+      name: 'Cherry Wood 4 Cigar Ashtray',
+      category: categories[6]._id,
+      description:
+        'The Cherry Wood 4-Cigar Ashtray has a very luxurious look. This ashtray has a 7" diameter, a gorgeous Cherry wood finish, 4 spots to place down your premium cigars, and an easy to clean deep brass ashtray insert.',
+      image: 'cherryashtray.jpeg',
       price: 9.99,
       quantity: 600
-    }
+    },
+    {
+      name: 'Copper 4 Stirrup Stinky Ashtray',
+      category: categories[6]._id,
+      description:
+        'The Copper Plated 4 Stirrup Original Stinky is the Cadillac of ashtrays. This beauty not only looks good, it comfortably holds up to four cigars, and the deep bowl keeps the ashes where they belong.',
+      image: 'copperstirrupashtray.jpeg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Elie Bleu Red Alba Porcelain Ashtray',
+      category: categories[6]._id,
+      description:
+        'Hand painted in France, the Elie Bleu Red Alba Porcelain Ashtray is truly a luxury work of art. A stunningly bold design with gorgeous Alba artwork in the center of the bowl makes this museum quality piece the showcase of my cigar den.',
+      image: 'eliebleuredalba.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Villiger Black Ashtray',
+      category: categories[6]._id,
+      description:
+        'Whether a den, patio or lounge, nothing completes your personal smoking utopia more than a swanky cigar ashtray. These superior cigar ashtrays are as stylish as they are functional, enhancing the aesthetics and overall smoking experience in any environment.',
+      image: 'villigerblack.jpeg',
+      price: 9.99,
+      quantity: 600
+    },
   ]);
 
   console.log('products seeded');
