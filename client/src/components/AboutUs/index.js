@@ -1,10 +1,11 @@
 import React from "react";
+import './style.css';
 
 function AboutUs () {
   // Define the data for the footer
-  const description = "This is your very own all-inclusive website for your avid cigars needs and coinsurer essentials. With this website you’ll be able to buy cigars, humidors, hookahs, lighters, cutters, cases, ashtrays, and shirts!"; 
+  const title = "About Us";
 
-  const title = "About Humidor Heaven";
+    const description = "This is your very own all-inclusive website for your avid cigars needs and coinsurer essentials. With this website you’ll be able to buy cigars, humidors, hookahs, lighters, cutters, cases, ashtrays, and shirts!"; 
 
   const columns = [{
     title: "Contribution Contacts",
@@ -39,16 +40,30 @@ function AboutUs () {
       name: "Item 8",
       link: "/item8"
     }]
-  }];
+  }]
 
-//   return <
-//     description={description}
-//     title={title}
-//     columns={columns}
-//   />;
-    return(
-        <h1>{AboutUs()}</h1>
-    );
-}
+return (
+    <div className="main-container">
+        <div>
+            <h1>
+            {title}
+            </h1>
+            <p>
+            {description}
+            </p>
+                <div className="contact">
+                {columns.map((c) => (    
+                    <div>
+                        {c.title}
+                        {/* <div>
+                            {c.resources}
+                        </div> */}
+                    </div>
+                ))}
+                </div>
+        </div>
+    </div>
+);
+};
 
 export default AboutUs;
