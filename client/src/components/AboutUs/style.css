@@ -1,6 +1,9 @@
 .main-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(87, 101, 126);
   z-index: 1;
-  padding-left: 100px;
 }
 
 

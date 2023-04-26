@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css';
+import { Link } from "react-router-dom";
 
 function AboutUs () {
   // Define the data for the footer
@@ -11,16 +12,16 @@ function AboutUs () {
     title: "Contribution Contacts",
     resources: [{
       name: "Brandon T",
-      link: "/brand560on@gmail.com"
+      link: "brand560on@gmail.com"
     },{
       name: "Manuela R",
-      link: "/Manuela@gmail.com"
+      link: "Manuela@gmail.com"
     },{
       name: "john K",
-      link: "/jkutch2@yahoo.com"
+      link: "jkutch2@yahoo.com"
     },{
       name: "Item 4",
-      link: "/item4"
+      link: "item4"
     }]
   },{
     title: "Column 2",
@@ -55,9 +56,15 @@ return (
                 {columns.map((c) => (    
                     <div>
                         {c.title}
-                        {/* <div>
-                            {c.resources}
-                        </div> */}
+
+                    {c.resources.map((e) =>(
+                        <div>
+                        {e.name}
+                        <Link to={e.link}>
+                            <p>{e.link}</p>
+                        </Link>
+                        </div>
+                    ))}   
                     </div>
                 ))}
                 </div>
