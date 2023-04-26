@@ -25,7 +25,7 @@ db.once('open', async () => {
         'Arturo Fuente Rothschild is dark and hefty - just like its flavor. This premium stick is loaded with top-quality notes of rich and spicy cedar, cream, and earth. This cigar certainly looks like a powerhouse so I was shocked at how smooth and mellow the draw was--but I couldn’t be more satisfied!',
       image: 'afrothchild.png',
       category: categories[0]._id,
-      price: 2.99,
+      price: 5.99,
       quantity: 500
     },
     {
