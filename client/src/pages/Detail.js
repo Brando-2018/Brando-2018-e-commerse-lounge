@@ -13,6 +13,7 @@ import {
 import { QUERY_PRODUCTS } from '../utils/queries';
 import { idbPromise } from '../utils/helpers';
 import spinner from '../assets/spinner.gif';
+import ProductRating from '../components/ProductRating';
 
 function Detail() {
   const [state, dispatch] = useStoreContext();
@@ -90,6 +91,8 @@ function Detail() {
           <h2>{currentProduct.name}</h2>
 
           <p>{currentProduct.description}</p>
+          
+          <ProductRating/>
 
           <p>
             <strong>Price:</strong>${currentProduct.price}{' '}
