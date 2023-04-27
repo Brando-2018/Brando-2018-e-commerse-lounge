@@ -17,8 +17,8 @@ function AboutUs () {
       name: "Manuela R",
       link: "Manuela@gmail.com"
     },{
-      name: "john K",
-      link: "jkutch2@yahoo.com"
+      name: "John K",
+      link: "johnk@yahoo.com"
     },{
       name: "Item 4",
       link: "item4"
