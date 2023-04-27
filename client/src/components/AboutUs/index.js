@@ -17,8 +17,8 @@ function AboutUs () {
       name: "Manuela R",
       link: "Manuela@gmail.com"
     },{
-      name: "John K",
-      link: "johnk@yahoo.com"
+      name: "john K",
+      link: "jkutch2@yahoo.com"
     },{
       name: "Item 4",
       link: "item4"
@@ -44,7 +44,7 @@ function AboutUs () {
   }]
 
 return (
-    <div className="main-container">
+    <div className="AboutUs-container">
         <div>
             <h1>
             {title}

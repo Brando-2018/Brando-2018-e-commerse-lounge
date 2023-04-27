@@ -1,4 +1,4 @@
-.main-container {
+.AboutUs-container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -11,4 +11,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  /* HomeHero Tab */
+
+  .HomeHero-container {
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background: url(../../../public/images/cigarlanding.jpg)
+    
   }

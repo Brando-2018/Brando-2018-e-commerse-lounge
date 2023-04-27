@@ -43,7 +43,7 @@ function CategoryMenu() {
 
   return (
     <div className='cat-div'>
-      <h2></h2>
+      <h2>Permium Products</h2>
       {categories.map((item) => (
         <button
           key={item._id}
