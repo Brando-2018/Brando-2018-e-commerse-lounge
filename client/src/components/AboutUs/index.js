@@ -44,7 +44,7 @@ function AboutUs () {
   }]
 
 return (
-    <div className="main-container">
+    <div className="AboutUs-container">
         <div>
             <h1>
             {title}
