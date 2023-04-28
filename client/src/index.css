@@ -41,7 +41,7 @@ h6 {
 }
 
 h1 {
-  font-size: 2.75rem;
+  font-size: 2.25rem;
 }
 
 h2 {
@@ -92,8 +92,8 @@ header a {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
+
 
 button {
   font-size: 1rem;
@@ -105,6 +105,8 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+  
+  
 }
 
 button:hover {
@@ -153,11 +155,6 @@ input:focus {
   flex-wrap: wrap;
 }
 
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .space-between {
   justify-content: space-between;
 }
@@ -187,13 +184,11 @@ input:focus {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
-  background-color: white;
 }
 
 .px-2 {
@@ -220,13 +215,79 @@ input:focus {
   color: var(--error);
 }
 
-.main-container {
+.photo {
+      
+  padding: 30px;
+  width: 45%;
   text-align: center;
-  color: #F3A847;
+  float: left;  
+  max-height: 240px; 
+  
+  
 }
 
+.description {
+  
+   padding: 30px;
+   float: left;
+   width: 55%;
+   border-left: 2px solid #efefef;
+}
+h1 {
+     color: #515151;
+     font-weight: 300;
+     padding-top: 15px;
+     margin: 0;
+     font-size: 30px;
+     font-weight: 300;
+   }
+ 
+   .cardproductname {
+    color: #515151;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+   }
+  
+   .descriptionpruduct { 
+     font-size: 12px; 
+     line-height: 20px;
+     color: #727272;
+     padding: 20px 0;
+     margin: 0;
+  }
+  
+   button {
+
+     outline: 0;
+     border: 0;
+     background: none;
+     border: 1px solid #d9d9d9;
+     padding: 8px 0px;
+     margin-bottom: 30px;
+     color: #515151;
+     text-transform: uppercase;
+     width: 125px;
+     font-family: inherit;
+     margin-right: 5px;
+     transition: all 0.3s ease;
+     font-weight: 500;
+   }
+  
+   .backproducts {
+      
+    width: 100%;
+    color: #727272;
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: 2px solid #efefef;
+    font-size: 12px;
+   }
+    
+  
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
   }
 }
+
