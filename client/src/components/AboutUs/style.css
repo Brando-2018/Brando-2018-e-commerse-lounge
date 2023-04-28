@@ -16,8 +16,9 @@
   /* HomeHero Tab */
 
   .HomeHero-container {
-    width: 100%;
-    transform: translate(-50%, -50%);
-    background: url(../../../public/images/cigarlanding.jpg)
     
   }
+
+.hero-image{
+  width: fit-content;
+}
