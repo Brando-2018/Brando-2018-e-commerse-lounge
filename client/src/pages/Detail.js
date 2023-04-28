@@ -86,16 +86,22 @@ function Detail() {
     <>
       {currentProduct && cart ? (
         <div className="container my-1">
-          <Link to="/">← Back to Products</Link>
-
-          <h2>{currentProduct.name}</h2>
-
-          <p>{currentProduct.description}</p>
-          
+          <Link to="/" className='backproducts'>← Back to Products</Link>
+          <div className='photo'>
+          <img
+            src={`/images/${currentProduct.image}`}
+            alt={currentProduct.name}
+          />
           <ProductRating/>
+          </div>
+          <div className='description'>
 
+          <h2 className='cardproductname'>{currentProduct.name}</h2>
+
+          <p className='descriptionproduct'>{currentProduct.description}</p>
+          
+          <h1>${currentProduct.price}{' '}</h1>
           <p>
-            <strong>Price:</strong>${currentProduct.price}{' '}
             <button onClick={addToCart}>Add to Cart</button>
             <button
               disabled={!cart.find((p) => p._id === currentProduct._id)}
@@ -105,10 +111,8 @@ function Detail() {
             </button>
           </p>
 
-          <img
-            src={`/images/${currentProduct.image}`}
-            alt={currentProduct.name}
-          />
+
+          </div>
         </div>
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
