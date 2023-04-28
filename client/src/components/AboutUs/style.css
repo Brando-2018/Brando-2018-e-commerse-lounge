@@ -5,14 +5,14 @@
   background-color: rgb(87, 101, 126);
   z-index: 1;
   text-align: center;
-  color: white;
+  color: burlywood;
 }
-
 
 .contact {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    color: burlywood;
   }
 
   /* HomeHero Tab */
