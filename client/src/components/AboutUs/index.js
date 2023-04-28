@@ -9,38 +9,38 @@ function AboutUs () {
     const description = "This is your very own all-inclusive website for your avid cigars needs and coinsurer essentials. With this website you’ll be able to buy cigars, humidors, hookahs, lighters, cutters, cases, ashtrays, and shirts!"; 
 
   const columns = [{
-    title: "Contribution Contacts",
+    title: "Third Parties",
     resources: [{
-      name: "Brandon T",
-      link: "brand560on@gmail.com"
+      name: "",
+      link: "Humidor Haven Foundation"
     },{
-      name: "Manuela R",
+      name: "",
+      link: "Humidor Careers"
+    },{
+      name: "",
+      link: "Find A Store"
+    }]
+  },{
+    title: "Customer Care",
+    resources: [{
+      name: "",
+      link: "Returns & Exchanges"
+    },{
+      name: "",
+      link: "Subscribe"
+    }]
+  },{
+    title: "Technical Support",
+    resources: [{
+      name: "",
+      link: "Brand560on@gmail.com"
+    },{
+      name: "",
       link: "Manuela@gmail.com"
     },{
-      name: "john K",
-      link: "jkutch2@yahoo.com"
-    },{
-      name: "Item 4",
-      link: "item4"
-    }]
-  },{
-    title: "Column 2",
-    resources: [{
-      name: "Item 5",
-      link: "/item5"
-    },{
-      name: "Item 6",
-      link: "/item6"
-    }]
-  },{
-    title: "Column 3",
-    resources: [{
-      name: "Item 7",
-      link: "/item7"
-    },{
-      name: "Item 8",
-      link: "/item8"
-    }]
+      name: "",
+      link: "Jkutch2@yahoo.com"
+     }]
   }]
 
 return (
@@ -54,7 +54,7 @@ return (
             </p>
                 <div className="contact">
                 {columns.map((c) => (    
-                    <div>
+                    <h3>
                         {c.title}
 
                     {c.resources.map((e) =>(
@@ -65,7 +65,7 @@ return (
                         </Link>
                         </div>
                     ))}   
-                    </div>
+                    </h3>
                 ))}
                 </div>
         </div>

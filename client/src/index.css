@@ -1,5 +1,5 @@
 :root {
-  --primary: #232F3E;
+  --primary: black                  ;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
@@ -11,6 +11,7 @@
 
 * {
   box-sizing: border-box;
+  color: black;
 }
 
 html,
@@ -42,7 +43,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
-  color: burlywood;
+  color: #c28d48;
 }
 
 h2 {
@@ -69,6 +70,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  color: black;
 }
 
 a {
@@ -168,6 +170,7 @@ input:focus {
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
+  
 }
 
 .mx-2 {
@@ -233,10 +236,10 @@ input:focus {
    padding: 30px;
    float: left;
    width: 55%;
-   border-left: 2px solid #efefef;
+   border-left: 2px solid white;
 }
 h1 {
-     color: burlywood;
+     color:black;
      font-weight: 300;
      padding-top: 15px;
      margin: 0;
