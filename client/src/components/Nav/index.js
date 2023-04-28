@@ -23,18 +23,18 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
+        <div className="flex-row">
+          <div className="mx-1">
             <Link to="/signup">
               Signup
             </Link>
-          </li>
-          <li className="mx-1">
+          </div>
+          <div className="mx-1">
             <Link to="/login">
               Login
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
       );
     }
   }
@@ -44,7 +44,7 @@ function Nav() {
       <h1>
         <Link to="/">
           <span role="img" aria-label="shopping bag"></span>
-          Humidor Haven
+          Home
         </Link>
       </h1>
 

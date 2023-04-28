@@ -1,5 +1,5 @@
 :root {
-  --primary: #232F3E;
+  --primary: #6d420a                  ;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
@@ -231,10 +231,10 @@ input:focus {
    padding: 30px;
    float: left;
    width: 55%;
-   border-left: 2px solid #efefef;
+   border-left: 2px solid white;
 }
 h1 {
-     color: #515151;
+     color: white;
      font-weight: 300;
      padding-top: 15px;
      margin: 0;
