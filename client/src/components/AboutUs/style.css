@@ -4,6 +4,8 @@
   margin-right: auto;
   background-color: rgb(87, 101, 126);
   z-index: 1;
+  text-align: center;
+  color: white;
 }
 
 
@@ -17,6 +19,7 @@
 
   .HomeHero-container {
     width: 100%;
+    padding: auto;
     transform: translate(-50%, -50%);
     background: url(../../../public/images/cigarlanding.jpg)
     
