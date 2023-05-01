@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10dfa73c.css",
+    "main.js": "/static/js/main.bf561417.js",
+    "static/media/cigarlanding.jpg": "/static/media/cigarlanding.a38faff0e714413538fe.jpg",
+    "static/media/spinner.gif": "/static/media/spinner.7e729fecb0d7593e9557.gif",
+    "static/media/logo1.png": "/static/media/logo1.91b9fa9e32f96a6f5c7f.png",
+    "index.html": "/index.html",
+    "main.10dfa73c.css.map": "/static/css/main.10dfa73c.css.map",
+    "main.bf561417.js.map": "/static/js/main.bf561417.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10dfa73c.css",
+    "static/js/main.bf561417.js"
+  ]
+}
